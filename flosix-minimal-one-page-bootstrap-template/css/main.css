@@ -40,9 +40,9 @@ h5 {
 	font-weight: 700;
 }
 .btn {
-	background-color: #3bc492;
-	color: #fff;
-	font-size: 13px;
+	background-color: #FDF238;
+	color: #1B1B1B;
+	font-size: 25px;
 	font-weight: 600;
 	letter-spacing: 5px;
 	border: 0;
@@ -53,7 +53,7 @@ h5 {
 	text-transform: uppercase;
 }
 .btn:hover, .btn:focus {
-	background-color: #3d3d3d;
+	background-color: #98731D;
 	color: #fff;
 }
 .btn-large {
@@ -100,6 +100,7 @@ ul li {
 /* ------------------------------------------------------------------------------
 	 Header
 -------------------------------------------------------------------------------*/
+
 #header {
 	position: fixed;
 	width: 100%;
