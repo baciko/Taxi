@@ -6,7 +6,8 @@
 	display: block;
 }
 .navigation {
-	position: fixed;
+	/*position: fixed;*/
+	margin: auto;
 	background-color: #000;
 	width: 100%;
 	height: 100%;
@@ -20,6 +21,7 @@
 }
 .navigation .primary-nav {
 	position: relative;
+	margin:auto;
 	top: 45%;
 	-moz-transform: translateY(-45%);
 	-ms-transform: translateY(-45%);
