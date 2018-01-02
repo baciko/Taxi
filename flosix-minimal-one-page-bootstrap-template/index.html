@@ -35,8 +35,9 @@
             <li><a href="#works">Vozidlá</a></li>
             <li><a class="logo" href="#"><img src="images/logoTaxi.png" height="120" width="130" alt=""></a></li>
             <li><a href="#teams">Cenník</a></li>
-            <li><a href="#testimonials">Kontakt</a></li>
-            <li><a href="#contact">Rezervuj Cestu</a></li>
+            <li><a href="#testimonials">Rezervuj Cestu</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+
           </ul>
         </nav>
         <a href="#" class="nav-toggle">Menu<span></span></a>
@@ -341,44 +342,57 @@
 </section>
 <!-- our team section --> 
 <!-- Testimonials section -->
-<section id="testimonials" class="section testimonials no-padding">
+<section id="testimonials" class="section testimonials">
   <div class="container-fluid">
     <div class="row no-gutter">
       <div class="flexslider">
-        <ul class="slides">
-          <li>
-            <div class="col-md-12">
-              <blockquote>
-                <h1>"Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Phasellus non dolor nibh. Nullam elementum Aenean eu leo quam..." </h1>
-                <p>Rene Brown, Open Window production</p>
-              </blockquote>
+        <div class="flight-engine">
+          <div class="container">
+            <div class="tabing">
+              <ul>
+                <li><a  href="#2"><i class="fa fa-plane" aria-hidden="true"></i> Flight</a></li>
+              </ul>
+              <div class="tab-content">
+                <div id="1" class="tab1 active">
+                  <div class="flight-tab row">
+                    <div class="persent-one">
+                      <i class="fa fa-map-marker" aria-hidden="true"></i>
+                      <input type="text" name="dep" class="textboxstyle" id="dep" placeholder="Z mesta alebo letiska">
+                    </div>
+                    <div class="persent-one">
+                      <i class="fa fa-map-marker" aria-hidden="true"></i>
+                      <input type="text" name="dep" class="textboxstyle" id="arival" placeholder="Na letisko alebo do mesta">
+                    </div>
+                    <div class="persent-one less-per">
+                      <i class="fa fa-calendar" aria-hidden="true"></i>
+                      <input type="text" name="dep" class="textboxstyle" id="from-date1" placeholder="Dátum odchodu">
+                    </div>
+                    <div class="persent-one less-per">
+                      <i class="fa fa-calendar" aria-hidden="true"></i>
+                      <input type="text" name="dep" class="textboxstyle" id="from-date2" placeholder="Dátum príchodu">
+                    </div>
+<!--                    <div class="persent-one less-per">
+                      <i class="fa fa-calendar" aria-hidden="true"></i>
+                      <input type="text" name="dep" class="textboxstyle" id="to-date" placeholder="">
+                    </div>-->
+                    <div class="persent-one">
+                      <i class="fa fa-user" aria-hidden="true"></i>
+                      <input type="text" name="dep" class="textboxstyle" id="passenger" placeholder="Počet osôb">
+                    </div>
+                    <div class="persent-one less-btn">
+                      <input type="Submit" name="submit" value="GO" class="btn btn-info cst-btn" id="srch">
+                    </div>
+                  </div>
+                  <!-- flight tab -->
+                </div>
+              </div>
+              <input type="textarea">
             </div>
-          </li>
-          <li>
-            <div class="col-md-12">
-              <blockquote>
-                <h1>"Cras dictum tellus dui, vitae sollicitudin ipsum. Phasellus non dolor nibh. Nullam elementum tellus pretium feugiat shasellus non dolor nibh. Nullam elementum tellus pretium feugiat." </h1>
-                <p>Brain Rice, Lexix Private Limited.</p>
-              </blockquote>
-            </div>
-          </li>
-          <li>
-            <div class="col-md-12">
-              <blockquote>
-                <h1>"Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur...." </h1>
-                <p>Andi Simond, Global Corporate Inc</p>
-              </blockquote>
-            </div>
-          </li>
-          <li>
-            <div class="col-md-12">
-              <blockquote>
-                <h1>"Lorem ipsum dolor sit amet, consectetur adipiscing elitPhasellus non dolor nibh. Nullam elementum tellus pretium feugiat. Cras dictum tellus dui sollcitudin." </h1>
-                <p>Kristy Gabbor, Martix Media</p>
-              </blockquote>
-            </div>
-          </li>
-        </ul>
+            <!-- tab content -->
+          </div>
+          <!-- tabbing -->
+        </div>
+      </div>
       </div>
     </div>
   </div>
@@ -395,17 +409,17 @@
 <!-- Get a quote section --> 
 <!-- Footer section -->
 <footer class="footer">
-  <div class="footer-top section">
+  <div class="footer-top">
     <div class="container">
       <div class="row">
         <div class="footer-col col-md-6">
-          <h5>Our Office Location</h5>
-          <p>Collins Street West Victoria 8007 Australia.<br>
-            1800 1234 56789 / 98532100987<br>
-            support@flosix.com</p>
-          <p>Copyright © 2015 Flosix Inc. All Rights Reserved. Made with <i class="fa fa-heart pulse"></i> by <a href="http://www.designstub.com/">Designstub</a></p>
+          <h5>Kde nás nájdete</h5>
+          <p>SNP 362, Kysucké Nové Mesto<br>
+            0911 115 105 / 0911 115 106 / 0911 115 107<br>
+            black.white.taxi.knm@gmail.com</p>
+          <!--<p>Copyright © 2015 Flosix Inc. All Rights Reserved. Made with <i class="fa fa-heart pulse"></i> by <a href="http://www.designstub.com/">Designstub</a></p>-->
         </div>
-        <div class="footer-col col-md-3">
+<!--        <div class="footer-col col-md-3">
           <h5>Services We Offer</h5>
           <p>
           <ul>
@@ -416,13 +430,13 @@
             <li><a href="#">User Experience</a></li>
           </ul>
           </p>
-        </div>
-        <div class="footer-col col-md-3">
-          <h5>Share with Love</h5>
+        </div>-->
+        <div class="footer-col col-md-3" style="float: right;">
+          <h5>Sociálne média</h5>
           <ul class="footer-share">
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a target="_blank" href="https://www.facebook.com/bwtaxiknm/"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-mail-forward"></i></a></li>
             <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
           </ul>
         </div>
